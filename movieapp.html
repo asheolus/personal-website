@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+<style>
+    #showcase {
+    background: url('movie-9pvmdtvz4cb0xl37.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 765px;
+    width: 100%;
+    padding: 10px;
+    
+    
+}
+* {box-sizing: border-box;}   
+
+body {margin: 0;}
+
+    #how_it_works 
+    {background-color: darkred; 
+    padding: 40px;
+    color: white;
+    }
+
+    .main_header {
+        background-color: darkred;
+        padding: 15px 16px;
+    }
+
+    .main_nav {
+        display: inline-block;
+        width: calc(100% - 99px);
+        text-align: right;
+    }
+    .main_nav__items {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+    }
+
+    .main_nav__item {
+        display: inline-block;
+        margin: 0 10px;
+        
+    }
+    .main_header__logo {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    .main_nav__item a {
+        text-decoration: none;
+        color: white;
+    }
+ 
+     .main_nav__item a:hover, .main_nav__item:hover::before {
+        color: white;
+     }
+     .main_nav__item a:active, .main_nav__item:active::before {
+        color: white;
+     }
+     .main_nav__item:before {
+        content: '\2022';
+        color: white;
+     }
+    
+     .main_nav__item--login a{
+     color: white;
+     background-color: darkred;
+     padding: 4px 10px;
+     border-radius: 10px;
+     border: 2px solid white;
+     }
+    
+     .main_nav__item--login:before {
+        content: none;
+        color: white;
+     }
+
+     #how_it_works {
+        text-align: center;
+        font-size: large;
+     }
+     
+      #alt_kisim {
+            background-color: darkred;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            
+        }
+        .uclu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+.plan {
+    list-style: none;
+}
+.yanyana {
+    display: inline-block;
+    width: 25%;
+    margin: 0 35px;
+}
+
+.yanyana i {
+    color: #FFC000;
+}
+
+
+</style>
+</head>
+<body>
+
+    <header class="main_header">
+        <a href="#" class="main_header__logo">MovieApp</a>
+        <nav class="main_nav">
+            <ul class="main_nav__items">
+                <li class="main_nav__item">
+                    <a href="#">Filmler</a>
+                </li>
+                <li class="main_nav__item">
+                    <a href="#">Diziler</a>
+                </li>
+                <li class="main_nav__item main_nav__item--login">
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </nav>
+    
+    </header>
+    
+    <main> 
+        <section id="showcase">
+            <h1>Welcome To MovieApp</h1>
+        </section>
+        <section id="how_it_works">
+            
+            <h2>How It Works?</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, sunt?
+            </p>
+        </section>
+    
+        <section id="alt_kisim">
+    <ul class="uclu">
+        
+        <li class="yanyana"> 
+            <i class="fa-solid fa-right-to-bracket fa-2x"></i>
+            <h2>Register</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit officia culpa deserunt cumque sapiente ipsum.</p></li>
+
+       <li class="yanyana">  
+        <i class="fa-regular fa-pen-to-square fa-2x"></i>
+        <h2>Choose a Plan</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eos possimus consequatur ducimus nesciunt maiores!</p></li>
+    
+    <li class="yanyana">   
+        <i class="fa-regular fa-face-laugh-wink fa-2x"></i>
+        <h2>Enjoy Movify</h2>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, adipisci consequuntur? Aperiam nulla vitae fugit.</p></li>
+</ul>
+
+</section>
+</main>
+</body>
+</html>
